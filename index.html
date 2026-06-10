@@ -592,7 +592,7 @@
         num: '01*',
         title: 'minimedi',
         items: [
-          { name: 'minimedi', img: 'minimedi_card1.png', href: 'https://minimedi.vercel.app/' },
+          { name: 'minimedi', img: 'minimedi_card1.png', href: 'https://minimedi.vercel.app/', desc: '아직 모바일 구현 중입니다' },
           { name: '앱 소개페이지', img: 'minimedi_card2.png', href: 'https://yoonjin070201.github.io/minimedi_app/' },
           { name: 'minimedi<br>노트폴리오', img: 'minimedi_card3.png', href: 'https://notefolio.net/yznie/461357' },
         ]
@@ -644,6 +644,7 @@
           </div>
           <div class="proj-sub-info">
             <div class="proj-sub-name">${item.name}</div>
+            ${item.desc ? `<div class="proj-sub-desc">${item.desc}</div>` : ''}
           </div>
         </a>
       `).join('');
