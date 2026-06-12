@@ -604,8 +604,12 @@ footer p {
     text-align: left !important;
   }
 
+  footer {
+    align-items: flex-start;
+  }
+
   footer h2 {
-    font-size: 4rem;
+    font-size: 2.8rem;
   }
 
   footer p {
