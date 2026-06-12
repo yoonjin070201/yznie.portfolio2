@@ -600,6 +600,18 @@ footer p {
     margin-top: 10px;
   }
 
+  #custom-cursor {
+    display: none !important;
+  }
+
+  *, body {
+    cursor: auto !important;
+  }
+
+  a, button, label, input, select, textarea, .project-card, .proj-sub-item, .proj-close {
+    cursor: pointer !important;
+  }
+
 }
 
 /* Lazy Loading Styles — sr-item 방식으로 통합됨 */
