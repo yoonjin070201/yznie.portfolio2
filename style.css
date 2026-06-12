@@ -554,11 +554,15 @@ footer p {
   }
 
   .left h2,
-  .big-right,
   .right-title h2,
   .education h2,
   .skills h2 {
     font-size: 4rem;
+  }
+
+  .big-right {
+    font-size: 2.2rem;
+    text-align: center;
   }
 
   .hobby-grid {
@@ -574,10 +578,15 @@ footer p {
     width: 100%;
   }
 
-  .hexagon-box,
-  .group-img-wrap {
+  .hexagon-box {
     width: 100%;
     height: auto;
+  }
+
+  .group-img-wrap {
+    width: 140px;
+    height: 140px;
+    margin: 25px auto 0;
   }
 
   .cert-list {
