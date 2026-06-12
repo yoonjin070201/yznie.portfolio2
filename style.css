@@ -593,6 +593,11 @@ footer p {
     width: 100%;
   }
 
+  .project-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+
   .certificates .left,
   .education-section .left {
     align-items: flex-start !important;
